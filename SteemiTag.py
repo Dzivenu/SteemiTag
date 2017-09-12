@@ -1,4 +1,4 @@
-# SteemiTAG RELEASE VERSION v0.1
+# SteemiTag RELEASE VERSION v0.1
 
 import tkinter as tk
 from tkinter import ttk
@@ -188,7 +188,6 @@ class Interface():
 
 		else:
 			self.window = tk.Toplevel()
-			self.window.title(self.title)
 			self.whom = tk.StringVar()
 
 			if self.aspect == 'add':
@@ -201,6 +200,7 @@ class Interface():
 				self.tl = "Wybierz autora: "
 				self.deleting()
 
+			self.window.title(self.title)
 			self.whomBox.grid(column=0, row=1, columnspan=2)
 			self.labl = tk.Label(self.window, text=self.tl)
 			self.labl.grid(row=0, column=0, columnspan=2)
