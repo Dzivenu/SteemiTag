@@ -436,7 +436,7 @@ class Mechanism(Interface):
     def __init__(self, authorsLiked, who, mainWin):
 
         self.authorsLiked = authorsLiked
-        self.tagsLiked = ['photography', 'steemit', 'life']
+        self.tagsLiked = ['polish']
         self.who = who
 
         self.b = Blockchain()
