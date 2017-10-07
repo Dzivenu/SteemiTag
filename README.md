@@ -13,7 +13,7 @@ This is SteemiTag v0.2.0.
 
 ### Manual
 1. Compile the program using Python 3 (optimally 3.5+).
-2. Create *a password for internal use of SteemiTag* (see [guildlines for passwords](http://its.virginia.edu/accounts/passwords.html)).
+2. Create *a password for internal use* of SteemiTag (see [guildlines for passwords](http://its.virginia.edu/accounts/passwords.html)).
 3. Set configuration (i.e. check options you want to choose, select authors and tags you would like to vote for).
 4. Write your login and paste your [posting key](https://steemit.com/security/@noisy/what-is-the-difference-between-a-password-and-a-private-key-s-on-steemit-how-to-make-your-account-more-secure-by-using-them).
 5. Provided your credentials are correct, the program will start running. You can have a coffee in the meantime or simply minimize it and let it work in the background.
