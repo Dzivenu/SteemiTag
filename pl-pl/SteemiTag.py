@@ -28,6 +28,7 @@ class AESCipher():
     
     '''
     This class is responsible for encrypting the posting key provided by a user.
+    It was based on the code found at https://github.com/mnothic.
     '''
 
     def __init__(self, userPass):
