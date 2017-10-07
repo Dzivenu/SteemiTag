@@ -25,6 +25,10 @@ from Crypto.Cipher import AES
 
 
 class AESCipher():
+    
+    '''
+    This class is responsible for encrypting the posting key provided by a user.
+    '''
 
     def __init__(self, userPass):
         self.bitSize = 16 * 8
@@ -517,7 +521,7 @@ class Mechanism(Interface):
         self.block['permlink'] = 're-haiyangdeperci-oryginalna-sobota-1-lut-czarnego-prawa-besztany-20171006t210844114z'
         self.suppressedVote()
 
-
+# The following piece of code enhances performance of SteemiTag on Windows and executes the code.
 if __name__ == "__main__":
     if 'win' in sys.platform:
         ctypes.windll.shcore.SetProcessDpiAwareness(1)
